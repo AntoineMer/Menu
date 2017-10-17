@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Menu
+
 {
     static class Program
     {
@@ -16,7 +17,7 @@ namespace Menu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenu());
+            Application.Run(new Form1());
         }
     }
 }

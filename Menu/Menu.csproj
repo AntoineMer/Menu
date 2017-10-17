@@ -45,14 +45,98 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="apps\Additionneur.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="apps\Additionneur.Designer.cs">
+      <DependentUpon>Additionneur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\CheckBoxEtRadioBoutons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\CheckBoxEtRadioBoutons.Designer.cs">
+      <DependentUpon>CheckBoxEtRadioBoutons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\LesComposantsDeDéfilement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\LesComposantsDeDéfilement.Designer.cs">
+      <DependentUpon>LesComposantsDeDéfilement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\LesContrôlesDeSaisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\LesContrôlesDeSaisie.Designer.cs">
+      <DependentUpon>LesContrôlesDeSaisie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\ListBoxEtComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\ListBoxEtComboBox.Designer.cs">
+      <DependentUpon>ListBoxEtComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\Synthèse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\Synthèse.Designer.cs">
+      <DependentUpon>Synthèse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="apps\Saisie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps\Saisie.Designer.cs">
+      <DependentUpon>Saisie.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="apps\Additionneur.resx">
+      <DependentUpon>Additionneur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\CheckBoxEtRadioBoutons.resx">
+      <DependentUpon>CheckBoxEtRadioBoutons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\LesComposantsDeDéfilement.resx">
+      <DependentUpon>LesComposantsDeDéfilement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\LesContrôlesDeSaisie.resx">
+      <DependentUpon>LesContrôlesDeSaisie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\ListBoxEtComboBox.resx">
+      <DependentUpon>ListBoxEtComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\Synthèse.resx">
+      <DependentUpon>Synthèse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps\Saisie.resx">
+      <DependentUpon>Saisie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
