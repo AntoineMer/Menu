@@ -27,8 +27,6 @@ namespace Menu
             listBoxEtComboBoxToolStripMenuItem.Tag = typeof(ListBoxEtComboBox);
             synthèseToolStripMenuItem.Tag = typeof(Synthèse);
             toolStripLabel1.Text = DateTime.Now.ToString();
-            
-            
         }
 
         private void sidentifierToolStripMenuItem_Click(object sender, EventArgs e)
@@ -69,7 +67,7 @@ namespace Menu
         }
         private void testFonctionOpen (object sender, EventArgs e)
         {
-
+            toolStripTextBox1.Text = string.Empty;
             ToolStripMenuItem maVar = ((ToolStripMenuItem)sender);
             Form myForm = Activator.CreateInstance((Type)maVar.Tag) as Form;
             myForm.MdiParent = this;
