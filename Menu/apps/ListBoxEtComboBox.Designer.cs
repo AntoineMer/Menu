@@ -153,7 +153,7 @@
             this.Controls.Add(this.labelSource);
             this.Controls.Add(this.comboBox1);
             this.Name = "ListBoxEtComboBox";
-            this.Text = "Form1";
+            this.Text = "ListBoxEtComboBox";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

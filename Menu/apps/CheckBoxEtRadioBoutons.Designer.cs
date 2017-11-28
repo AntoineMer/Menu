@@ -270,7 +270,7 @@
             this.Controls.Add(this.CouleurFond);
             this.Controls.Add(this.TextModif);
             this.Name = "CheckBoxEtRadioBoutons";
-            this.Text = "Form1";
+            this.Text = "CheckBoxEtRadionBoutons";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxFond.ResumeLayout(false);
             this.groupBoxFond.PerformLayout();

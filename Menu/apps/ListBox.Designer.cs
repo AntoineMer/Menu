@@ -233,7 +233,7 @@
             this.Controls.Add(this.labelNvlElement);
             this.Controls.Add(this.NouvelElement);
             this.Name = "ListBox";
-            this.Text = "Form1";
+            this.Text = "ListBox";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();

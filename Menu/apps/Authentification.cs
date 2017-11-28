@@ -44,6 +44,12 @@ namespace Menu
         private void button2Cancel_Click(object sender, EventArgs e)
         {
             ActiveForm.Close();
+            
+        }
+
+        private void Authentification_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

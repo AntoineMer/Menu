@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1Nom = new System.Windows.Forms.TextBox();
             this.textBox2Capital = new System.Windows.Forms.TextBox();
             this.radioButton7PC = new System.Windows.Forms.RadioButton();
@@ -46,7 +47,7 @@
             this.label1MontantRemboursement = new System.Windows.Forms.Label();
             this.label1NbrRemb = new System.Windows.Forms.Label();
             this.DureeInt = new System.Windows.Forms.Label();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -251,7 +252,7 @@
             this.Controls.Add(this.textBox2Capital);
             this.Controls.Add(this.textBox1Nom);
             this.Name = "Synthèse";
-            this.Text = "Form1";
+            this.Text = "Synthèse";
             this.Load += new System.EventHandler(this.Form1Synthèse_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -175,7 +175,7 @@
             this.Controls.Add(this.trackBarBlue);
             this.Controls.Add(this.trackBarRed);
             this.Name = "Defilement";
-            this.Text = "Form1";
+            this.Text = "ComposantsDeDéfilement";
             this.Load += new System.EventHandler(this.Defilement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBarRed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarBlue)).EndInit();

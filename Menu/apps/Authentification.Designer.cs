@@ -107,7 +107,8 @@
             this.Controls.Add(this.button2Cancel);
             this.Controls.Add(this.button1Ok);
             this.Name = "Authentification";
-            this.Text = "Form1";
+            this.Text = "Authentification";
+            this.Load += new System.EventHandler(this.Authentification_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

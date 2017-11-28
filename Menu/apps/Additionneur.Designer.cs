@@ -160,6 +160,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(245, 92);
             this.textBox1.TabIndex = 10;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Valider
             // 
@@ -201,7 +202,7 @@
             this.Controls.Add(this.chiffre_0);
             this.Name = "Additionneur";
             this.Tag = "Additionneur";
-            this.Text = "Form1";
+            this.Text = "Additionneur";
             this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
